@@ -1,6 +1,6 @@
 # Create Customer
 
-    POST customer
+    POST /customer
     
 Create a customer. Returns the newly-created object.
 
