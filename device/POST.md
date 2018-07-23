@@ -17,7 +17,7 @@ rid | N | Reseller ID, supplied by Yombu
 mid | Y | Merchant ID, supplied by Yombu
 api_key | Y | API key, supplied by Yombu 
 mac | Y | MAC address 
-public_key | Y | ECDSA public key [How to generate](/device/openssl.md)
+public_key | Y | ECDSA public key [Generation Instructions](/device/openssl.md)
 location_id | Y | Any alphanumeric string you wish to use to identify a location (there can be multiple devices per location)
 address | Y | Street address
 address2 | N | Suite, floor, etc

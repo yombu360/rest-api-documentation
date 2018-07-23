@@ -55,4 +55,5 @@ For a description of the available resources see the [Resource Overview](resourc
 
 [Device]: /device/
 [Customer]: /customer/
+[Authenticate]: /authenticate/
 [Error Codes]: /error_codes.md
