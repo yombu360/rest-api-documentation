@@ -18,9 +18,9 @@ https://api.yombu.com/v1
 ## HTTP Requests
 All API requests are made by sending a secure HTTPS request using one of the following methods, depending on the action being taken:
 
+* `GET` Get a resource or list of resources
 * `POST` Create a resource
 * `PUT` Update a resource
-* `GET` Get a resource or list of resources
 * `DELETE` Delete a resource
 
 ## HTTP Responses
@@ -46,7 +46,12 @@ For a description of the available resources see the [Resource Overview](resourc
 - **<code>POST</code> [Create Device](/device/POST.md)**
 
 ### [Customer][]
-- **[<code>POST</code> [Create Customer](/customer/POST.md)**
+- **<code>POST</code> [Create Customer](/customer/POST.md)**
+- **<code>PUT</code> [Update Customer](/customer/PUT.md)**
+- **<code>DELETE</code> [Delete Customer](/customer/DELETE.md)**
+
+### [Authenticate][]
+- **<code>POST</code> [Create Authentication](/authenticate/POST.md)**
 
 [Device]: /device/
 [Customer]: /customer/
