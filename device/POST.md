@@ -17,7 +17,7 @@ rid | N | Reseller ID, supplied by Yombu
 mid | Y | Merchant ID, supplied by Yombu
 api_key | Y | API key, supplied by Yombu 
 mac | Y | MAC address 
-public_key | Y | ECDSA public key [Generation Instructions](/device/openssl.md)
+public_key | Y | ECDSA public key [Keypair Generation Instructions](/device/ecdsa.md)
 location_id | Y | Any alphanumeric string you wish to use to identify a location (there can be multiple devices per location)
 address | Y | Street address
 address2 | N | Suite, floor, etc
@@ -54,7 +54,12 @@ country | Y | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alph
     "errors": [],
     "access_token": "xxxxx",
     "result": {
-      "location_id": "xxxxx",
+      "confirmation": "xxxxx",
     }
 }
 ```
+## Notes
+### Shared Key Generation
+
+### Confirmation
+The `confirmation` parameter will contain the MAC address of the device encrypted with the shared key. Use this field to validate that both sides have matching shared encryption keys.

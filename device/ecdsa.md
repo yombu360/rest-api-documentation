@@ -1,6 +1,6 @@
-# OpenSSL ECDSA Key Generation
+# ECDSA Key Generation
 
-Instructions to generate an ECDSA key pair for use with Yombu's device registration API
+Instructions to generate an ECDSA key pair using OpenSSL for use with Yombu's device registration API
 
 ## 
 ## Commands
