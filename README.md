@@ -40,18 +40,17 @@ Each response will be returned with one of the following HTTP status codes:
 #### Note that all dates are in the form of Unix timestamps (seconds since January 1, 1970) and returned in GMT - you will have to account for time zone adjustment depending on your client's location.
 
 ## Resources
-For a description of the available resources see the [Resource Overview](resource_overview.md).
 
 ### [Device][]
-- **<code>POST</code> [Create Device](/device/POST.md)**
+- **<code>POST</code>** [Create Device](/device/POST.md)
 
 ### [Customer][]
-- **<code>POST</code> [Create Customer](/customer/POST.md)**
-- **<code>PUT</code> [Update Customer](/customer/PUT.md)**
-- **<code>DELETE</code> [Delete Customer](/customer/DELETE.md)**
+- **<code>POST</code>** [Create Customer](/customer/POST.md)
+- **<code>PUT</code>** [Update Customer](/customer/PUT.md)
+- **<code>DELETE</code>** [Delete Customer](/customer/DELETE.md)
 
 ### [Authenticate][]
-- **<code>POST</code> [Create Authentication](/authenticate/POST.md)**
+- **<code>POST</code>** [Create Authentication](/authenticate/POST.md)
 
 [Device]: /device/
 [Customer]: /customer/
