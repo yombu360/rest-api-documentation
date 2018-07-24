@@ -3,7 +3,8 @@
 Instructions to generate an ECDSA key pair for use with Yombu's device registration API
 
 ## 
-### Commands
+## Commands
+
 **List available ECDSA curves** - We are specifically looking for secp384r1 :  NIST/SECG curve over a 384 bit prime field
 
 `openssl ecparam -list_curves`
