@@ -24,7 +24,7 @@ pin | N | Required only for integrations not passing a customer identifier into 
 ## Example
 ### Request
 
-    POST https://api.yombu.com/v1/customer/2
+    PUT https://api.yombu.com/v1/customer/2
 #### Request Body
 ```json 
 {

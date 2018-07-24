@@ -5,8 +5,6 @@
 Initialize a device for use with Yombu.
 
 
-
-
 ## Parameters
 ### URI Parameters
 None
@@ -17,6 +15,7 @@ rid | N | Reseller ID, supplied by Yombu
 mid | Y | Merchant ID, supplied by Yombu
 api_key | Y | API key, supplied by Yombu 
 mac | Y | MAC address 
+sn | N | Serial Number
 public_key | Y | ECDSA public key [Keypair Generation Instructions](/device/ecdsa.md)
 location_id | Y | Any alphanumeric string you wish to use to identify a location (there can be multiple devices per location)
 address | Y | Street address
