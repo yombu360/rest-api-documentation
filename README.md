@@ -34,6 +34,7 @@ Each response will include a `success` boolean and (if successful) a populated `
     "errors": [],
     "access_token": "xxxxx",
     "result": {}
+}
 ```
 
 ## HTTP Response Codes
