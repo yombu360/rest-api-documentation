@@ -50,7 +50,7 @@ Each response will be returned with one of the following HTTP status codes:
 - **<code>DELETE</code>** [Delete Customer](/customer/DELETE.md)
 
 ### [Authenticate][]
-- **<code>POST</code>** [Create Authentication](/authenticate/POST.md)
+- **<code>POST</code>** [Authenticate Customer](/authenticate/POST.md)
 
 [Device]: /device/
 [Customer]: /customer/
