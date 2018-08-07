@@ -15,7 +15,6 @@ Field | Required | Description
 --- | --- | ---
 first_name | N |
 last_name | N | 
-customer_id | N | Your customer identifier
 phone | N |
 fmd1 | N | Optional, additional fingerprint to enroll - must be encrypted with shared key
 fmd[2-9] | N | Optional, additional fingerprints to enroll - must be encrypted with shared key
