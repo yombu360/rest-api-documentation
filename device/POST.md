@@ -18,6 +18,7 @@ mac | Y | MAC address
 sn | N | Serial Number
 public_key | Y | ECDSA public key [Keypair Generation Instructions](/device/ecdsa.md)
 location_id | Y | Any alphanumeric string you wish to use to identify a location (there can be multiple devices per location)
+location_name | Y |
 address | Y | Street address
 address2 | N | Suite, floor, etc
 city | Y | 
@@ -38,10 +39,11 @@ country | Y | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alph
     "mac": "00:00:00:00:00",
     "public_key": "xxxxx",
     "location_id": "12345",
+    "location_name": "Yombu HQ",
     "address": "1751 Pinnacle Dr",
     "address2": "6th Floor",
     "city": "McLean",
-    "state": "VA",
+    "region": "VA",
     "postal_code": "22102",
     "country": "US"
 }
