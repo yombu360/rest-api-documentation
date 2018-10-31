@@ -17,6 +17,7 @@ first_name | Y |
 last_name | Y | 
 customer_id | Y | Your customer identifier
 phone | Y |
+accepted_terms | Y | End users must be presented with our biometric retention policy/terms of use/privacy policy, scroll through and accept. A unified document encompassing all three policies can be found [here](/biometric-policy).
 fmd1 | Y | Initial fingerprint to enroll - must be encrypted with shared key
 fmd[2-9] | N | Optional, additional fingerprints to enroll - must be encrypted with shared key
 pin | N | Required only for integrations not passing a customer identifier into the [Authenticate API](/authenticate)
