@@ -6,6 +6,13 @@ Yombu is a biometric authentication and payments platform. The REST API allows f
 ### Support
 For API support, please email api.support@yombu.com
 
+### Data Policies
+As part of our commitment to data privacy, our most recent biometric privacy policy can be found according to language below. You must include this in your application and have the customer agree before we can accept any of their data.
+* `English` [Unified Biometric Policy](/customer/Unified-Biometric-Policies.docx)
+* `Español` [Política Biométrica Unificada](/customer/Unified-Biometric-Policies-ES.docx)
+
+https://github.com/yombu360/rest-api-documentation/blob/master/customer/Unified-Biometric-Policies-ES.docx
+
 ## Authentication
 Access to the API is granted by supplying an access token in the header of the request with the key *Access-Token*. To obtain an access token, you will need to register your device with Yombu by using the [Device API](/device). In the response for every successful API request, an access token will be in the body. This access token changes at a random interval.
 
