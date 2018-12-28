@@ -7,7 +7,7 @@ Yombu is a biometric authentication and payments platform. The REST API allows f
 For API support, please email api.support@yombu.com
 
 ### Data Policies
-As part of our commitment to data privacy, our most recent biometric privacy policy can be found according to language below in the the [Customer API](/customer) documentation. You must include this in your application and have the customer agree before we can accept any of their data.
+As part of our commitment to data privacy, our most recent biometric privacy policy can be found according to language below or in the [Customer API](/customer) documentation. You must include this in your application and have the customer agree before we can accept any of their data.
 * `English` [Unified Biometric Policy](/customer/Unified-Biometric-Policies.docx)
 * `Español` [Política Biométrica Unificada](/customer/Unified-Biometric-Policies-ES.docx)
 
